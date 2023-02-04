@@ -1,14 +1,14 @@
-username: 
-password: 
+
 
 positions:
-- Data Scientist
-- # Another position you want to search for
-- # A third position you want to search for
+- analytics engineer
+- data engineer
+- data scientist
+- data analyst
 
 locations:
 - Remote
-- # A second location you want to search in 
+- "Seattle, Washington, United States"
 
 # --------- Optional Parameters -------
 # uploads:
@@ -16,12 +16,17 @@ locations:
 #  Cover Letter: # PATH TO cover letter
 #  Photo: # PATH TO photo
 
-
 # output_filename:
 # - # PATH TO OUTPUT FILE (default output.csv)
+blacklist:
+ - avalara
+ - cybercoders
 
-# blacklist:
-# - # Company names you want to ignore
+blackListTitles:
+- java
+- ios
+- android
 
-#blackListTitles:
-#- # Add job titles you want to ignore
+
+humanintervention:
+- True

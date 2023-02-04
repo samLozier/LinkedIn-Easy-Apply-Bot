@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "linkedin-easy-apply-bot"
+version = "0.1.0"
+description = ""
+authors = ["samuel.lozier <samLozer@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+selenium = "^4.8.0"
+beautifulsoup4 = "^4.11.1"
+pandas = "^1.5.3"
+PyAutoGUI = "^0.9.53"
+webdriver-manager = "^3.8.5"
+PyYAML = "^6.0"
+lxml = "^4.9.2"
+python-dotenv = "^0.21.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
